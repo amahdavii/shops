@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="265" height="265" viewBox="0 0 265 265">
+    <defs>
+        <linearGradient id="7zrp13plxa" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#c9dff5"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 21038" transform="translate(-7127 15354)">
+        <circle data-name="Ellipse 303" cx="132.5" cy="132.5" r="132.5" transform="translate(7127 -15354)" style="fill:#f3f9ff"/>
+        <g data-name="Group 21036">
+            <path data-name="Rectangle 38650" transform="translate(7224.49 -15281.827)" style="fill:#ebf5ff" d="M0 0h69v14H0z"/>
+            <path data-name="Path 53041" d="m6814-15514.8 14.3-14.4v14.4z" style="fill:#ebf5ff" transform="translate(396.49 247.173)"/>
+            <path data-name="Path 53042" d="m6828.3-15514.8-14.3-14.4v14.4z" transform="translate(479.49 247.173)" style="fill:#ebf5ff"/>
+            <path data-name="Path 53040" d="M6809.9-15514.8h104.7v110.4h-104.7z" style="stroke:#707070;fill:url(#7zrp13plxa)" transform="translate(396.49 247.173)"/>
+            <path data-name="Shoping Icon" d="M2.043 132.777h102.136a2.044 2.044 0 0 0 2.043-2.043V18.385a2.058 2.058 0 0 0-.6-1.444L89.282.6a2.058 2.058 0 0 0-1.445-.6H18.385a2.058 2.058 0 0 0-1.445.6L.6 16.94a2.058 2.058 0 0 0-.6 1.445v112.35a2.044 2.044 0 0 0 2.043 2.043zm2.043-4.085V20.427h98.051v108.265zM89.88 6.974l9.368 9.368H89.88zm-4.085 9.368H20.427V4.085h65.368zm-69.453 0H6.974l9.368-9.368zm61.282 22.47a7.15 7.15 0 0 0-7.15 7.15 7.073 7.073 0 0 0 4.945 6.7 22.355 22.355 0 0 1-44.617 0 7.073 7.073 0 0 0 4.945-6.7 7.15 7.15 0 0 0-14.3 0 7.053 7.053 0 0 0 5.274 6.772 26.433 26.433 0 0 0 52.776 0 7.055 7.055 0 0 0 5.274-6.772 7.151 7.151 0 0 0-7.147-7.15zm-52.09 7.15a3.064 3.064 0 1 1 3.066 3.064 3.069 3.069 0 0 1-3.066-3.065zm52.09 3.064a3.064 3.064 0 1 1 3.064-3.064 3.069 3.069 0 0 1-3.064 3.064z" transform="translate(7206.389 -15285.777)" style="fill:#253858"/>
+        </g>
+    </g>
+</svg>

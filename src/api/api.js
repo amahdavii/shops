@@ -1,0 +1,1 @@
+export const BaseUrl='https://shop243.griffinmart.com/graphql'

@@ -12,17 +12,17 @@ const client = new ApolloClient({
   uri: BaseUrl,
 });
 
+import RotateImage from '../../public/assets/image/rotate2.svg'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Provider store={store} >
-        {/* <ApolloProvider client={client}> */}
           <Head>
             <title>آلین لند شاپس</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <Component {...pageProps} />
-          {/* </ApolloProvider> */}
       </Provider>
    </>
   )

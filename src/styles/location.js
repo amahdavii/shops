@@ -28,6 +28,10 @@ export const TitleBottonHeader = styled.div`
     mt-[3px]
   `}
   width: ${(props) => (props.width ? props.width : '200px')};
+
+  /* @media (max-width: 639px) {
+    margin-bottom: 24px;
+  } */
 `
 export const ShopBox = styled(ColumnContainer)`
   ${tw`

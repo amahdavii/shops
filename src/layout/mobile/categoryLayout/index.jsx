@@ -1,4 +1,4 @@
-import { MainCategoryContent, CategoryLayoutContainer } from './style'
+import { MainCategoryContent, LayoutCategoryContainer } from './style'
 import StoreMobileNavbar from '../storeMobileLayout/navbar'
 import { IconBox } from '../../../styles/sharedStyle'
 import { useRouter } from 'next/router'
@@ -10,18 +10,25 @@ const MobileCategoryLayout = ({
   subCategory,
   subFilter,
   mysterious,
+  categoryNav,
+  fullPage,
+  hideNav,
+  fullHeight,
 }) => {
   return (
-    <CategoryLayoutContainer>
+    <LayoutCategoryContainer>
       <HeaderCategoryArea
         pageTitle={pageTitle}
         subCategory={subCategory}
         subFilter={subFilter}
         mysterious={mysterious}
+        categoryNav={categoryNav}
       />
-      <MainCategoryContent>{children}</MainCategoryContent>
-      <StoreMobileNavbar />
-    </CategoryLayoutContainer>
+      <MainCategoryContent fullPage={fullPage} fullHeight={fullHeight}>
+        {children}
+      </MainCategoryContent>
+      <StoreMobileNavbar hideNav={hideNav} />
+    </LayoutCategoryContainer>
   )
 }
 

@@ -102,6 +102,10 @@ export const NumberRow = styled(RowContainer)`
     mt-[30px]
     items-stretch
   `}
+
+  @media (max-width: 639px) {
+    margin-right: 0;
+  }
 `
 export const NumberRowColumn = styled(ColumnContainer)`
   ${tw`
@@ -130,4 +134,43 @@ export const CircleNumberBorder = styled(CenterContainer)`
     border-[2px]
     border-[#ed7203]
   `}
+`
+
+export const AboutusTitle = styled.p`
+  @media (max-width: 639px) {
+    color: #494f55;
+    font-weight: 600;
+    font-size: 18px;
+  }
+`
+
+
+
+export const AboutusDesc = styled.p`
+  @media (max-width: 639px) {
+    color: #494f55;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 0 15px 0;
+
+    text-align: justify;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+  }
+`
+
+export const TrustSection = styled.section`
+  @media (max-width: 639px) {
+    background: #fff;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+`
+export const TrustNamadArea = styled.div`
+  @media (max-width: 639px) {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
 `

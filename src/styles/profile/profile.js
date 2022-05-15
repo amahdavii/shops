@@ -124,3 +124,68 @@ export const ProfileBtn = styled.button`
   font-weight: 600;
   margin-top: 20px;
 `
+export const ProfileMainMobile = styled.section`
+  @media (max-width: 639px) {
+    background: #fff;
+    margin-top: 15px;
+    min-height: 80vh;
+    height: 100%;
+    padding: 15px;
+  }
+`
+
+export const ProfileItemsMobile = styled.ul`
+  @media (max-width: 639px) {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+`
+export const ProfileItemMobile = styled.li`
+  @media (max-width: 639px) {
+    color: #494f55;
+    font-weight: 500;
+
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #f5f8fa;
+    }
+  }
+`
+export const ProfileItemTitle = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+`
+
+export const ProfileWelcomemsg = styled.span`
+  @media (max-width: 639px) {
+    display: block;
+    font-size: 16.5px;
+    padding: 15px;
+    color: #494f55;
+    font-weight: 500;
+  }
+`
+
+export const ProfileUserSection = styled.section`
+  @media (max-width: 639px) {
+    padding: 0 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+`

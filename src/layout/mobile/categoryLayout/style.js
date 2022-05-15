@@ -28,9 +28,9 @@ export const HeaderCategoryTitle = styled.h3`
 
 export const MainCategoryContent = styled.main`
   @media (max-width: 639px) {
-    background: #f5f8fa;
-    padding: 15px 15px 18% 15px;
-    min-height: 100vh;
+    /* background: #f5f8fa; */
+    padding: ${(props) => (props.fullPage ? '0' : '15px 15px 18% 15px')};
+    min-height: ${(props) => (props.fullHeight ? 'auto' : '93vh')};
     height: 100%;
   }
 `
@@ -42,7 +42,11 @@ export const HeaderMobileCart = styled.div`
   }
 `
 
-export const CategoryLayoutContainer = styled.div`
+export const LayoutCategoryContainer = styled.div`
+  @media (max-width: 639px) {
+    background: #f5f8fa;
+  }
+
   @media (min-width: 639px) {
     display: none;
   }

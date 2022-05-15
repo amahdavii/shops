@@ -1,10 +1,17 @@
-import tw from "twin.macro"
-import styled from "styled-components"
-import {BetweenRow, BoldSpan, CenterContainer, ColumnContainer, ColumnFitContainer, RowContainer} from "src/styles/sharedStyle";
-import Image from "next/image";
+import tw from 'twin.macro'
+import styled from 'styled-components'
+import {
+  BetweenRow,
+  BoldSpan,
+  CenterContainer,
+  ColumnContainer,
+  ColumnFitContainer,
+  RowContainer,
+} from 'src/styles/sharedStyle'
+import Image from 'next/image'
 
 export const CartItemContainer = styled(RowContainer)`
-    ${tw`
+  ${tw`
         px-[20px]
         mt-[20px]
         border-b-[1px]
@@ -12,29 +19,39 @@ export const CartItemContainer = styled(RowContainer)`
         w-[100%-20px]
         justify-start
         items-start
-
     `}
 
-    &:last-child{
-        border:0px ;
-    }
+  &:last-child {
+    border: none;
+  }
+
+  @media (max-width: 639px) {
+      padding-right: 0;
+      padding-left: 5px;
+  }
+  
 `
 export const DetailCartItem = styled(BetweenRow)`
-    ${tw`
+  ${tw`
        w-[100%]    
        items-end
        mb-[20px]
        mt-[25px]
     `}
+
+    @media (max-width: 639px) {
+        position: relative;
+        margin-bottom: 15px;
+    }
 `
 
 export const TitleContainer = styled(ColumnContainer)`
-    ${tw`
+  ${tw`
        mr-[10px]
        w-full
     `}
 
-    span{
-       font-size: 15px;
-    }
+  span {
+    font-size: 15px;
+  }
 `

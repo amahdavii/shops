@@ -1,8 +1,8 @@
 import { MainStoreBottomNav, MainStoreNavItem } from './style'
 
-const StoreMobileNavbar = () => {
+const StoreMobileNavbar = ({hideNav}) => {
     return (
-      <MainStoreBottomNav>
+      <MainStoreBottomNav hideNav={hideNav}>
         <MainStoreNavItem>
           <span>1</span>
           <span>خانه</span>

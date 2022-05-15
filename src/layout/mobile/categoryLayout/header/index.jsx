@@ -20,6 +20,7 @@ const HeaderCategoryArea = ({
   subCategory,
   subFilter,
   mysterious,
+  categoryNav
 }) => {
   const router = useRouter()
   return (
@@ -35,7 +36,7 @@ const HeaderCategoryArea = ({
           <HeaderCategoryTitle>{pageTitle}</HeaderCategoryTitle>
         </HeaderCategoryTitleArea>
       </HeaderCategoryTopArea>
-      <HeaderFilterCategoryArea mysterious={mysterious}>
+      <HeaderFilterCategoryArea mysterious={mysterious} categoryNav={categoryNav}>
         <HeaderFilterCategoryItems mysterious={mysterious}>
           <li>لبنیات</li>
           <li>نوشیدنی</li>

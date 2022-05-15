@@ -64,3 +64,52 @@ export const SimilarProduct = styled.section`
     }
   }
 `
+export const ProductPriceContainer = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+  }
+`
+
+export const ProductPriceDesc = styled.div`
+  @media (max-width: 639px) {
+    padding: 25px 0;
+    position: relative;
+  }
+`
+
+export const ProductPriceDetail = styled.div`
+  @media (max-width: 639px) {
+    padding: 25px 0;
+    /* position: relative; */
+  }
+`
+
+export const ProductDiscountArea = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 0;
+      margin-left: 10px;
+    }
+  }
+`
+
+export const ProductPriceArea = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+export const ProductMainPriceArea = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+`

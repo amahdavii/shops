@@ -84,6 +84,7 @@ export const MainPrice = styled.div`
   @media (max-width: 639px) {
     ${tw`    
     text-[16px]
+    ml-2
 
   `}
   }

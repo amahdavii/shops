@@ -41,7 +41,7 @@ export const AddToCartBox = styled(BetweenRow)`
     position: absolute;
     top: 10px;
     left: 10px;
-    padding: 1px 5px;
+    /* padding: 1px 5px; */
   }
 `
 export const CountBox = styled.span`

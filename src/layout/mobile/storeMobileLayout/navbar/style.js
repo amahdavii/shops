@@ -8,7 +8,7 @@ export const MainStoreBottomNav = styled.nav`
     height: 8%;
     bottom: 0;
     box-shadow: -1px -1px 15px #eee;
-    display: flex;
+    display: ${(porps) => porps.hideNav ? 'none' : 'flex'};
     align-items: center;
     justify-content: space-around;
     z-index: 1000;

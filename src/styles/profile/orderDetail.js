@@ -102,3 +102,57 @@ export const AmountPaidArea = styled.div`
 export const AmountPaidItem = styled.span`
   font-weight: 500;
 `
+export const OrderDetailSection = styled.section`
+  @media (max-width: 639px) {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #494f55;
+    margin: 15px 0;
+  }
+`
+
+export const OrderDetailArea = styled.div`
+  @media (max-width: 639px) {
+    &:not(:first-child) {
+      padding-top: 15px;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid #efefef;
+      padding-bottom: 15px;
+    }
+  }
+`
+export const OrderDetailItemTitle = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+  }
+`
+
+export const OrderDetailItem = styled.div`
+  @media (max-width: 639px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+
+    span {
+      &:first-child {
+        color: #6d757d;
+      }
+
+      &:last-child {
+        color: #494f55;
+        font-weight: 500;
+      }
+    }
+  }
+`

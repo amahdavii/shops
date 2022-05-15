@@ -35,7 +35,7 @@ export const HeaderCategoryTitle = styled.h2`
 
 export const HeaderFilterCategoryArea = styled.nav`
   @media (max-width: 639px) {
-    display: flex;
+    display: ${(props) => (props.categoryNav ? 'flex' : 'none')};
     align-items: center;
     padding: 10px 15px;
     background-color: ${(props) => (props.mysterious ? '#6a78d1' : '#fff')};
